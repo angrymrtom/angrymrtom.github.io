@@ -4,12 +4,6 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Tech guy that has been in the game for about a decade.  I work primarily with Microsoft Technologies, mostly Hyper-V, the Systems Center Suite, and a ton of PowerShell.
 
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
-
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+I am also an avid homebrewer and I am always trying to bring more tech into that space.  In my blog you will always find posts about gadgets and contraptions I am making to assist in brewing.
