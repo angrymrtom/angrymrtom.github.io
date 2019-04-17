@@ -17,9 +17,9 @@ I love to pedal, and its one of the few things I do to somewhat be active.  I pe
 As far as Disc Golf goes, been doing it my whole life, just need the clock to open up some time for me to do it again.
 
 What you can you plan on finding here?  
-  1. Well, lots of brew day experiences, most of the time, something goes wrong.  Sometimes wroth then others, but should lead to some interesting tales.
-  2. Probably some of the most obscure tech experiences that you'll ever find, with fixes that you no anyone you'll ever will ever need ever.
-  3. My _what I'd do different if i did it again_ on DIY projects, from a fully functional [BrewPiLess](https://github.com/vitotai/BrewPiLess), to a prop Iron Man Reactor and stand (The stand I had to design from scratch and it turned out quite well.)
-  4. Maybe after enough beers, some really stupid rants on things like religion, god, death, politics, social culture, and maybe even some bullshit about movies.
+  * Lots of brew day experiences, most of the time, something goes wrong.  Sometimes worse then others, which should lead to some interesting _homebrewed_ tales.
+  * Probably some of the most obscure tech experiences that you'll ever find, with fixes that neither you, or anyone you'll ever meet will ever need, ever.
+  * My _what I'd do different if i did it again_ on DIY projects, from a fully functional [BrewPiLess](https://github.com/vitotai/BrewPiLess), to a prop Iron Man Reactor and stand (The stand I had to design from scratch and it turned out quite well.)
+  * And maybe after enough beers, some really stupid rants on things like religion, god, death, politics, social culture, and possibly even some bullshit about movies.
 
-Still here, impressive; anyway this has probably been the worst _About_ page you've ever read, (if you've even made this far).  Bottom line is I'm just another lost soul doing things I somewhat enjoy to make time have some meaning.  I'm overly eccentric, I over think absolutely everything, I always assume the worst, but, sometimes, just sometimes, amongst all my self induced anxiety, I get to laugh a bit too, so cheers!
+Still here, impressive; this has probably been the worst _About_ page you've ever read, (if you've even made this far).  Bottom line is I'm just another lost soul doing things I somewhat enjoy to make time have some meaning.  I'm overly eccentric, I over think absolutely everything, I always assume the worst, but, sometimes, just sometimes, amongst all my self induced anxiety, I get to laugh a bit too, so cheers!

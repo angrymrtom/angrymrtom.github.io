@@ -241,6 +241,10 @@ nav {
 // .main
 //
 
+#main {
+  margin-bottom: 6rem;
+}
+
 .posts > .post {
   padding-bottom: 2em;
   border-bottom: 1px solid $lightGray;
@@ -272,6 +276,9 @@ nav {
 }
 
 .wrapper-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
@@ -279,12 +286,13 @@ nav {
 }
 
 footer {
-  padding: 20px 0;
+  padding: 10px 0;
   text-align: center;
 }
 
-.fab, .fal {
+.fab, .fas {
   color:$blue !important;
+  padding: 5px;
 }
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
