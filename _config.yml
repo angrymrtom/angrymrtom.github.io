@@ -17,7 +17,6 @@ avatar: "https://github.com/angrymrtom.png?size=500"
 
 # Includes an icon in the footer for each username you enter
 footer-links:
-  dribbble:
   email:
   facebook:
   flickr:
@@ -25,12 +24,11 @@ footer-links:
   instagram: angrymrtom
   reddit: angrymrtom
   linkedin:
-  pinterest:
-  rss: # just type anything here for a working RSS icon
   twitter: angrymrtom
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
   taplistio: 963267
+  thingiverse: angrymrtom
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
