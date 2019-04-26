@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Mixed Ferm NEIPA (First Attempt)
-pdf: true
 ---
 
 So, my thought process on this was pretty simple, I have been reading a bit on doing an all [Brettanomyces](http://www.milkthefunk.com/wiki/Brettanomyces) fermented [NEIPA](http://dev.bjcp.org/beer-styles/21b-specialty-ipa-new-england-ipa/).  I started reading on [Milk The Funk](www.milkthefunk.com/wiki) about different strains of Brett.  The [Brett Claussenii](http://www.milkthefunk.com/wiki/White_Labs) strain from White Labs caught my eye.  Especially based on the flavor profile:
