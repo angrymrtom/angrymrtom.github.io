@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Taplist Pi Zero
+tags: homebrewing raspberrypi
 ---
 
 So, if in your homebrew life, you've moved on past bottling (because its it f***ing terrible) and are kegging your ferments, you've probably already come up with some way to label or mark your taps so you know what tap is pouring what beverage.  I know there is _a lot_ of articles out there on this topic, but, I wanted to share my experience on the matter, and hopefully, it can save you some time, and money.
@@ -89,7 +90,7 @@ After the img is done writing to the SD card, its time to being configuring Rasp
     * Add this to the file: `[[ -z $DISPLAY && $XDG_VTNR -eq 1 ]] && startx -- -nocursor`
     * Save and close the file.
 
-14. Lastly shut you Raspberry Pi Zero down `sudo shutdown now` and go attach it to your monitor.  You do not need to attach any peripherals, on its next boot, it will autologin as the `Pi` user, and start up `Chromium` and navigate to `https://www.taplist.io/display`.  The very first time this boots, there will be a code on the screen that you need to go to https://taplist.io/activate and enter in.
+14. Lastly shut you Raspberry Pi Zero down `sudo shutdown now` and go attach it to your monitor.  You do not need to attach any peripherals, on its next boot, it will autologin as the `Pi` user, and start up `Chromium` and navigate to https://www.taplist.io/display.  The very first time this boots, there will be a code on the screen that you need to go to https://taplist.io/activate and enter in.
 
 WHEW!  Thats it, hopefully you made it this far, and ended up with something like this ![Taplist]({{ site.baseurl }}/images/2019-04-26-taplist-pi-zero/taplist.jpg)
 
