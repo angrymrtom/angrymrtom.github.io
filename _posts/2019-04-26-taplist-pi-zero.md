@@ -19,7 +19,7 @@ The first time I did this, I used a Raspberry Pi 3, which is probably over kill 
 The premise of this digital taplist, uses a free product (for personal use) called [Taplist.io](https://taplist.io).  You will need to create an account, and from there, you can create taps, build your beverage database, create kegs, attach kegs to taps.  I'm not going to go into very much detail on this part because there is so many variables, and so much customization you can do with it.  what ever you customize under the "Look And Feel" section of your dashboard, is what will be displayed on the final product when you are finished.  The other nice part is you get an online taplist you can share with anyone (you can find mine at the bottom of this page, by clicking the "beer mug" icon).
 
 ### Setting up the Raspberry Pi Zero
-For the first partof this build, we need to install and configure the Raspberry Pi Zero, we will be installing the latest version of [Raspbian Stretch Lite](https://www.raspbian.org).
+For the first part of this build, we need to install and configure the Raspberry Pi Zero, we will be installing the latest version of [Raspbian Stretch Lite](https://www.raspbian.org).
 1. Download the latest img for **Raspbian Stretch Lite** [here](https://www.raspberrypi.org/downloads/raspbian/).
 2. Open the `Disk Utility` app:
     * Press `CMD+SPACE` to open the `Spotlight` application.
@@ -45,7 +45,7 @@ After the img is done writing to the SD card, its time to being configuring Rasp
 1. SSH is disabled by default, so to enable it, you need to create an empty file called `ssh`:
     * `touch /Volumes/boot/ssh`
 2. Next, you need to append `dtoverlay=dwc2` to the end of `/Volumes/boot/config.txt`.  You can do this either with `textEdit` or with a terminal editor.
-3. This next step is a little tricky, first open `/Volumes/boot/cmdline.txt`, and located the text `rootwait`, immidately after that, add a space, and then this text: `modules-load=dwc2,g_ether`.  So it should look like this:
+3. This next step is a little tricky, first open `/Volumes/boot/cmdline.txt`, and located the text `rootwait`, immediately after that, add a space, and then this text: `modules-load=dwc2,g_ether`.  So it should look like this:
     * `rootwait modules-load=dwc2,g_ether`
 4. Now go ahead and eject the SD card and then load it into the Raspberry Pi Zero and plug in the power.  It will take about 60 seconds to boot up, then connect it to your computer.
 5. Next, go to `System Preferences > Network` and you will see a new device called `RNDIS/Ethernet Gadget`.  ![Network]({{ site.baseurl }}/images/2019-04-26-taplist-pi-zero/network.png)  This is the Raspberry Pi Zero, you can share your internet connection to it, which will then all you to SSH to the device.
@@ -98,6 +98,6 @@ Cheers!
 ---
 
 ### Sources
-https://brandonb.ca/raspberry-pi-zero-w-headless-setup-on-macos
-https://bdking71.wordpress.com/2018/11/06/setup-an-information-kiosk-using-a-raspberry-pi-zero-w/
-https://taplist.io/help/raspberry-pi-setup
+* https://brandonb.ca/raspberry-pi-zero-w-headless-setup-on-macos
+* https://bdking71.wordpress.com/2018/11/06/setup-an-information-kiosk-using-a-raspberry-pi-zero-w/
+* https://taplist.io/help/raspberry-pi-setup
