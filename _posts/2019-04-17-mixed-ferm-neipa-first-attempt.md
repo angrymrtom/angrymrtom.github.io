@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Mixed Ferm NEIPA (First Attempt)
+category: homebrewing
+description: An overview of creating a mixed fermentation NEIPA.
 tags: homebrewing
 ---
 

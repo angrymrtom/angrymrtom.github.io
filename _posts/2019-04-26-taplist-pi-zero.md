@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Taplist Pi Zero
+category: homebrewing
+description: A walk through for creating a digital taplist with Taplist.io and Raspberry Pi Zero.
 tags: homebrewing raspberrypi
 ---
 
