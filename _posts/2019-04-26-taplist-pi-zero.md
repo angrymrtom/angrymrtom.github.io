@@ -18,10 +18,10 @@ As you can probably tell, I'm a bit of a tech nerd, so obviously I wanted digita
 
 The first time I did this, I used a Raspberry Pi 3, which is probably over kill for hardware to make a taplist, especially when all we are going to do is display a web page.  A few months ago, I need a Raspberry Pi for another project, and when I looked to buy one, they are like $30, however, at the time, I found a Raspberry Pi Zero for $5 _(at the time of this writing it is ~$15)_.  It doesn't have near the hardware resources, but again, we are just going to be displaying a webpage.  _(Also, with taplist.io, you can use a kindle fire stick, I haven't ever set it up with that, but I do know that there instructions on the product page on how to set one up.)_  So, lets get started.
 
-### taplist.io
+## taplist.io
 The premise of this digital taplist, uses a free product (for personal use) called [Taplist.io](https://taplist.io).  You will need to create an account, and from there, you can create taps, build your beverage database, create kegs, attach kegs to taps.  I'm not going to go into very much detail on this part because there is so many variables, and so much customization you can do with it.  what ever you customize under the "Look And Feel" section of your dashboard, is what will be displayed on the final product when you are finished.  The other nice part is you get an online taplist you can share with anyone (you can find mine at the bottom of this page, by clicking the "beer mug" icon).
 
-### Setting up the Raspberry Pi Zero
+## Setting up the Raspberry Pi Zero
 For the first part of this build, we need to install and configure the Raspberry Pi Zero, we will be installing the latest version of [Raspbian Stretch Lite](https://www.raspbian.org).
 1. Download the latest img for **Raspbian Stretch Lite** [here](https://www.raspberrypi.org/downloads/raspbian/).
 2. Open the `Disk Utility` app:
@@ -43,7 +43,7 @@ For the first part of this build, we need to install and configure the Raspberry
     * Again, replace `rdisk4` with the disk number you found in step 7.
     * This may take some time, took my system about 10 minutes on an 8GB SD Card with a Thunderbolt SD Card Reader.
 
-### Configuring Raspbian Lite Stretch
+## Configuring Raspbian Lite Stretch
 After the img is done writing to the SD card, its time to being configuring Raspbian.  Because the Raspberry Pi Zero has such little hardware, we are going to try to keep this as minimal as possible.
 1. SSH is disabled by default, so to enable it, you need to create an empty file called `ssh`:
     * `touch /Volumes/boot/ssh`
@@ -100,7 +100,7 @@ Cheers!
 
 ---
 
-### Sources
+## Sources
 * https://brandonb.ca/raspberry-pi-zero-w-headless-setup-on-macos
 * https://bdking71.wordpress.com/2018/11/06/setup-an-information-kiosk-using-a-raspberry-pi-zero-w/
 * https://taplist.io/help/raspberry-pi-setup
