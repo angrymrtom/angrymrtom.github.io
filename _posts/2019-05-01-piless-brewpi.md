@@ -2,7 +2,7 @@
 layout: post
 title: PiLess BrewPi
 category: homebrewing
-description: Building a BrewPi without a Raspberry Pi
+description: Building a BrewPi without a Raspberry Pi using the BrewPiLess implementation.
 tags: homebrewing raspberrypi 3dprinting
 ---
 
