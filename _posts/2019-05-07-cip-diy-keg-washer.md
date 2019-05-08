@@ -25,3 +25,8 @@ Boom, a keg cleaner.  For me, I use old 7.75gal kegs as fermenters, so I use thi
 ![Washer]({{ site.baseurl }}/images/2019-05-07-cip-diy-keg-washer/washer.jpg)
 
 cake!  easy peasy build!  BEER TIME!
+
+---
+
+### Sources
+https://beer.thegremlyn.com/2017/03/15/i-built-a-keg-washer-you-should-too/
