@@ -82,7 +82,7 @@ Layout diagram (I wasn't able to find a 3D model of the AC-DC 5V PSU, that goes 
 2. Use the diagram above to connect all the jumpers.
     * The power for the NodeMCU will be supplied from the AC->DC 5V PSU to the 5V pin on the board.
     * Connect a ground lead from the AC->DC 5V PSU to any ground on the NodeMCU board.
-    * In the diagram it shows the 5V pin is used to power the relay module, but that is assuming the NodeMCU is being powered VIA the USB port.  Which is not the case, the 5V pin on the board will be used to power the NodeMCU itself, and then you can use one of the 3 power leads from the AC->DC 5V PSU to power the relay module.
+    * In the diagram it shows the 5V pin is used to power the relay module, but that is assuming the NodeMCU is being powered VIA the USB port.  Which is not the case, the 5V (maybe also labeled 'Vin') pin on the board will be used to power the NodeMCU itself, and then you can use one of the 3 power leads from the AC->DC 5V PSU to power the relay module.
     * Be sure to add the resistor in the three position screw terminal when wiring in the temperature probes.
 3. Next wire in the power switch and the outlets.
     * AC Rocker switch wiring digram:
