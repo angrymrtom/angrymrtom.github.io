@@ -2,7 +2,7 @@
 layout: post
 title: CIP DIY Keg Washer
 category: homebrewing
-description: Clean your kegs, the easy way
+description: Clean your kegs, the easy way.
 tags: keezer diy
 ---
 

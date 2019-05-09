@@ -3,7 +3,7 @@ layout: post
 title: Taplist Pi Zero
 category: homebrewing
 description: A walk through for creating a digital taplist with Taplist.io and Raspberry Pi Zero.
-tags: homebrewing raspberrypi
+tags: homebrewing raspberrypi keezer
 ---
 
 So, if in your homebrew life, you've moved on past bottling (because its it f***ing terrible) and are kegging your ferments, you've probably already come up with some way to label or mark your taps so you know what tap is pouring what beverage.  I know there is _a lot_ of articles out there on this topic, but, I wanted to share my experience on the matter, and hopefully, it can save you some time, and money.
