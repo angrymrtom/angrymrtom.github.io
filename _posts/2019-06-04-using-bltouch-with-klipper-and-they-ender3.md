@@ -21,8 +21,8 @@ Next, you will need to know your bed size, the bed that ships with the Ender3 is
 Here are the settings you need to add or update on in your Klipper `printer.cfg`:
 1. You need to change the `endstop_pin` value to use a virtual endstop, this is in the `z_stepper` section.
   * `endstop_pin: probe:z_virtual_endstop`
-2. You need to allow the Z Axis to go below the '0' mark for negative warp, this can be done by editing the `endstop_min` value, also in the `z_stepper` section.
-  * `endstop_min: -3`
+2. You need to allow the Z Axis to go below the '0' mark for negative warp, this can be done by editing the `position_min` value, also in the `z_stepper` section.
+  * `position_min: -3`
 3. You need to define the `[bltouch]` section and values in the configuration file (a section is defined with square brackets, this section does not exist in the Ender3 printer.cfg by default, so you will need manually create it).  You can see that the X and Y offsets are the values I got from the Thingiverse page.
 ```
 [bltouch]
