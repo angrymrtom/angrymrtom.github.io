@@ -32,21 +32,21 @@ x_offset: -47.0
 y_offset: -5.0
 z_offset: 1.65
 speed: 5.0
+samples: 2
+sample_retract_dist: 8.0
 ```
+  * The `samples` value is how many times it checks each location in the bed mesh, more samples will take longer.
 4. Next, the `[bed_mesh]` section needs to be manually defined.
 ```
 [bed_mesh]
 speed: 80
 horizontal_move_z: 5
-samples: 2
-sample_retract_dist: 8.0
 min_point: 50,30
 max_point: 230,230
 probe_count: 5,5
 ```
   * The `probe_count` is how many samples its going to take, `5,5` is a `5x5` grid, a bigger grid will take longer, but may be more accurate.
   * The `min_point` and `max_point` is how big your bed is, with the `220x220mm` build plate, `230x230mm` is about as large as you can go.
-  * The `samples` value is how many times it checks each location in the bed mesh, more samples will take longer.
 5. Now, add the `[homing_override]` section.  You can do what ever you want here, I am just setting the Z axis to home in the middle of the bed.
 ```
 [homing_override]
@@ -76,6 +76,11 @@ So, for me this was the hardest part, I had the probe working, and at least stop
 8. Print and be happy as your first layer runs perfect!
 
 I actually left my printer off for about 4 weeks recently, turned it on and fired off a print, first layer still layed perfect.  Cheers!
+
+---
+
+### Update
+* 20190609 - A recent Klipper update moved the `samples: 2` and `sample_retract_distance: 8.0` from the `[bed_mesh]` section to the `[bltouch]` section.  I have updated this article to reflect those changes.
 
 ---
 
